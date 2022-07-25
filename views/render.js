@@ -1,8 +1,7 @@
 import ReactDOM from "react-dom";
+import React from 'react';
 
 export function renderDOM(app) {
-  // const container = document.getElementById("app");
-  // const root = createRoot(container);
   ReactDOM.render(
     <React.StrictMode>{app}</React.StrictMode>,
     document.getElementById("root")
